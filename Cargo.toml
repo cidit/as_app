@@ -1,0 +1,15 @@
+[workspace]
+members = ["core", "view"]
+resolver = "3"
+
+[workspace.package]
+name = "as_app"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.96"
+description = "An app to open web pages as separate apps."
+authors = ["cidit"]
+license = ""
+repository = "https://github.com/cidit/as_app"
+
+[workspace.dependencies]
